@@ -1,0 +1,30 @@
+==========================================================================
+🏙️  FOOT TRAFFIC & BUSINESS OPPORTUNITY SCANNER (100% FREE APPROACH)
+==========================================================================
+Target: Palermo, Buenos Aires, Argentina
+Radio exploratorio: 800 metros
+
+[+] Coordenadas base: Lat -34.5803362, Lon -58.4245236
+
+[+] Lanzando scanner satelital en Overpass API...
+[+] Se interceptaron 421 nodos de actividad en el área.
+
+==========================================================================
+📈 RESULTADOS: RANKING DE CALLES POR TRÁFICO PEATONAL EXACTO (SCORE BASE)
+==========================================================================
+
+TOP CALLES CON MAYOR TRÁFICO (DIGITOS DUROS BASADOS EN DENSIDAD Y TRANSPORTE PÚBLICO):
+                        calle  total_nodos  score_trafico_peatonal  promedio_pasos_por_local
+             Avenida Santa Fe           44                    1930                      43.9
+                     Paraguay           13                     710                      54.6
+                       Thames           15                     660                      44.0
+            Jorge Luis Borges           12                     640                      53.3
+                   Godoy Cruz            7                     420                      60.0
+                    Guatemala            7                     350                      50.0
+Fray Justo Santa María de Oro            9                     320                      35.6
+                     Bonpland            6                     310                      51.7
+                     Fitz Roy            6                     260                      43.3
+                      Armenia            5                     180                      36.0
+
+☁️ Sincronizando modelo en Databricks Serverless...
+Sincronización completada. Listo para insertar en Unity Catalog.

@@ -1,0 +1,1 @@
+❌ ERROR: Falta configurar GOOGLE_MAPS_API_KEY en el archivo .env

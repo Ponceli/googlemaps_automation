@@ -1,0 +1,6 @@
+databricks-connect==18.0.*
+databricks-sdk
+python-dotenv
+pandas
+git+https://github.com/m-wrzr/populartimes.git
+requests

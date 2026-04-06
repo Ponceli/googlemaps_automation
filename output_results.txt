@@ -1,0 +1,10 @@
+==== INIT DATABRICKS CONNECT ====
+--- DATABASES ---
+DATABASE: bronze
+DATABASE: capacitacion_eli
+DATABASE: default
+DATABASE: gold
+DATABASE: information_schema
+DATABASE: silver
+--- FILES IN / ---
+ERROR: Public DBFS root is disabled. Access is denied on path: /. Config: host=https://dbc-660854f2-9125.cloud.databricks.com, account_id=04cfed3e-12e5-4fe2-bd8c-8efe86fa3120, workspace_id=4406545732310101, discovery_url=https://dbc-660854f2-9125.cloud.databricks.com/oidc/.well-known/oauth-authorization-server, token=***, auth_type=pat. Env: DATABRICKS_HOST, DATABRICKS_TOKEN

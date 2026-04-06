@@ -1,0 +1,32 @@
+🔍 Geocodificando dirección: Avenida Eva Peron, Parque Chacabuco, Buenos Aires, Argentina ...
+🌍 Analizando zona en (-34.6359137, -58.4489889) con radio de 500m...
+
+📡 Consultando Overpass API (OpenStreetMap)...
+✅ Se encontraron 2 restaurantes en la zona.
+
+📊 Densidad de negocios por calle (Top 5):
+calle
+Avenida Curapaligüe    2
+Name: count, dtype: int64
+
+☁️ Enviando datos de densidad a Databricks Serverless para guardar...
+Registros procesados en Spark:
++-----------------+-------------------+-----------+-----------+
+|nombre           |calle              |lat        |lon        |
++-----------------+-------------------+-----------+-----------+
+|Impala           |Avenida Curapaligüe|-34.6351667|-58.4474489|
+|Pizzeria Mr. Mago|Avenida Curapaligüe|-34.6383883|-58.4448503|
++-----------------+-------------------+-----------+-----------+
+
+
+==========================================
+  DATO ADICIONAL: GOOGLE POPULAR TIMES    
+==========================================
+Para calcular los picos de visitas exactos de cada negocio (Google Popularity),
+debemos usar el método que vimos cruzando los IDs:
+
+import populartimes
+data = populartimes.get_id(tu_api_key_de_google, "place_id_del_negocio")
+print(data["populartimes"])
+
+NOTA: Este paso requiere contar con una API Key de Google Maps válida en tú archivo .env o usar text-search.

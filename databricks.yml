@@ -1,0 +1,13 @@
+bundle:
+  name: googlemaps_automation
+
+workspace:
+  host: https://dbc-660854f2-9125.cloud.databricks.com
+  auth_type: pat
+  profile: Eli
+
+targets:
+  dev:
+    default: true
+    workspace:
+      host: https://dbc-660854f2-9125.cloud.databricks.com
